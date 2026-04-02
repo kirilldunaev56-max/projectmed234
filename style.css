@@ -36,16 +36,22 @@
   --nav-h: 68px;
 }
 
+/* Светлая тема */
 [data-theme="light"] {
     --primary: #D32F2F;
     --primary-dark: #B71C1C;
-    --bg-primary: #FFF8F0;
-    --bg-secondary: #FFFFFF;
-    --bg-elevated: #F5EDE3;
-    --text-primary: #1A1A1A;
-    --text-secondary: #4A4A4A;
+    --bg-primary: #FFF8F0;        /* тёплый белый */
+    --bg-secondary: #FFFFFF;       /* чистый белый */
+    --bg-tertiary: #F5EDE3;        /* светлый бежевый */
+    --bg-elevated: #E8DDD0;        /* светлый деревянный */
+    --bg-glass: rgba(255, 248, 240, 0.9);
+    --text-primary: #1A1A1A;       /* почти чёрный */
+    --text-secondary: #4A4A4A;     /* тёмно-серый */
+    --text-tertiary: #6B6B6B;      /* средний серый */
     --border-color: rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Кнопка переключения темы */
 .theme-toggle {
